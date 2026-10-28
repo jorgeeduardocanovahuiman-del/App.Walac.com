@@ -1,0 +1,10 @@
+{
+  "name": "WALAC Museo Inmersivo Tallán",
+  "short_name": "WALAC Tallán",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#472F45",
+  "theme_color": "#472F45",
+  "description": "Demostración interactiva del Museo Inmersivo Tallán de Piura.",
+  "icons": []
+}

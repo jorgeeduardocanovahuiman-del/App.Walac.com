@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#472F45">
+<title>WALAC · Museo Inmersivo Tallán</title>
+<link rel="stylesheet" href="styles.css"><link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div class="desktop-hint" aria-hidden="true"><span>WAAC</span><small>Museo Inmersivo Tallán de Piura</small></div>
+<div class="app-shell" id="appShell">
+  <div class="phone-frame" id="phoneFrame">
+    <div class="phone-screen">
+      <div class="statusbar"><span id="clock">9:41</span><span class="iphone-notch"><i></i></span><span class="status-icons">▮▮▮ ▰</span></div>
+      <main id="screen" class="screen" aria-live="polite"></main>
+      <nav class="bottom-nav" id="bottomNav">
+        <button data-go="home" class="nav-item active"><span>⌂</span><small>Inicio</small></button>
+        <button data-go="map" class="nav-item"><span>⌕</span><small>Explorar</small></button>
+        <button data-go="community" class="nav-item"><span>♧</span><small>Comunidad</small></button>
+        <button data-go="profile" class="nav-item"><span>♙</span><small>Perfil</small></button>
+      </nav>
+    </div>
+  </div>
+  <div class="desktop-caption"><span class="live-dot"></span> DEMOSTRACIÓN INTERACTIVA <span class="caption-sep">·</span> Haz clic en los botones para navegar</div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
